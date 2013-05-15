@@ -8,6 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/VerveWireless/iOS_Ad.git", :tag => "v1.3.1", :branch => "IOSC-99"}
   s.platform     = :ios, '5.1'
   s.source_files = 'Classes'
-  s.public_header_files = 'Public Headers'
-  s.requires_arc = true
+  s.requires_arc = false
 end
