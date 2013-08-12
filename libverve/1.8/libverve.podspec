@@ -3,7 +3,12 @@ Pod::Spec.new do |s|
   s.version      = "1.8"
   s.summary      = "Verve Content API."
   s.homepage     = "http://www.vervemobile.com"
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = {
+    :type => 'Commercial',
+    :text => <<-LICENSE	
+	See: www.vervemobile.com 
+	LICENSE
+  }
   s.author       = 'Verve Wireless, Inc.'
   s.source       = { :git => "https://github.com/VerveWireless/libverve.git", :tag => "v1.8", :branch => "ARC"}
   s.platform     = :ios, '5.1'
